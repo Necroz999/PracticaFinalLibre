@@ -1,0 +1,352 @@
+/**{
+    outline: solid 1px black;
+}*/
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.contenedor1{
+    height: 100vh;
+    background-image: url(imagenes/casa1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+.contenedor1:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.1);
+    
+}
+
+.navbar{
+    
+    height: 5vh;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: relative;
+
+}
+
+h1{
+    color: #2A3138;
+    font-size: 2.8em;
+    font-weight: 100;
+    width: 10%;
+    text-align: center;
+    margin-right: -40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+nav ul {
+    list-style: none;
+    color: #546170;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    
+    
+   
+}
+
+nav li:hover{
+    color: #f9f9f9;
+    transform: scale(1.2);
+	transform-origin: center;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 10px;
+    font-size:1.3em;
+    justify-content: start;
+
+}
+
+#buttons{
+    margin: 0%;
+    
+
+}
+
+.buttons button:hover{
+    background-color: #f9f9f9;
+    transform: scale(1.1);
+	transform-origin: center;
+}
+
+.play2{
+    border-radius: 6px;
+    border-color: none;
+    border-style: none;
+    padding: 8px 8px;
+    font-size: 1.8em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #546170;
+    background-color: transparent;
+
+}
+
+
+main{
+    height: 290vh;
+    background-color: whitesmoke;
+}
+
+#centro{
+    margin-top: 80px;
+    padding-top: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 2.8em;
+    text-align: center;
+    position: relative;
+}
+
+#text-principal{
+    font-size: 10em;
+    
+}
+
+.boton1{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+button.play{
+    border-radius: 20px;
+    border-color: none;
+    border-style: none;
+    padding: 14px 14px;
+    font-size: 2.3em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f9f9f9;
+    background-color:rgba(184, 93, 8, 0.8);
+    position: relative;
+
+}
+
+.boton1 button:hover{
+    transform: scale(1.2);
+	transform-origin: center;
+    color: whitesmoke;
+    background-color: rgba(184,93,8);
+    position: relative;
+}
+
+.nosotros{
+    height: 50vh;
+    margin: auto;
+    padding-left: 15px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #69788A;
+       
+}
+
+.texto-nosotros h3{
+    height: 30vh;
+    text-align: center;
+    font-size: 3em;
+    color: #69788A;
+    align-items: center;
+    padding-top: 70px;
+    border-style: groove;
+    border-radius: 8px;
+    width: 98%;
+    margin: auto;
+}
+
+.nosotros h3{
+    width: 100%;
+    font-size: 2em;
+    
+}
+.ejemplos{
+    width: 100%;
+    margin-left: -15px;
+}
+
+.ejemplos img{
+    width: 100%;
+	vertical-align: top;
+    border-radius: 3%;  
+    object-fit: cover;
+}
+
+.ubicacionesTitle{
+    height: 10vh;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+    color: #2A3138;
+    margin-top: 100px;
+}
+
+.ubicaciones{
+    height: 70vh;
+    margin: auto;
+    padding-left: 15px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #69788A;
+}
+
+.ubicaciones h5{
+    font-size: 1.8em;
+}
+
+.ubicaciones img{
+    width: 100%;
+	vertical-align: top;
+    border-radius: 3%;  
+    object-fit: cover;
+}
+
+.ubicaciones a{
+    color: #2A3138;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: #FFEDED;
+}
+
+.ubicaciones a:hover{
+    transform: scale(1.2);
+	transform-origin: center;
+    background-color: #69788A;
+    
+}
+
+.ubicaciones li{
+    list-style-type: square;
+
+}
+
+.contacto{
+    height: 50vh;
+    margin: auto;
+    padding-left: 15px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #69788A;
+}
+
+.contacto img{
+    width: 100%;
+	vertical-align: top;
+    border-radius: 3%;  
+    object-fit: cover;
+}
+
+.contactoTitle{
+    height: 20vh;
+    font-size: 3.5em;
+    font-weight: bolder;
+    text-align: center;
+    color: #2A3138;
+    margin-top: 180px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.registro input{
+    border-radius: 8px;
+    height: 5vh;
+    width: 90%;
+    margin-bottom: 4vh;
+    border-style: solid;
+    border-color: #69788A;
+    
+}
+
+.registro input:hover{
+    background-color: #FFEDED;
+}
+
+.datos button{
+    border-radius: 20px;
+    border-color: none;
+    border-style: none;
+    padding: 14px 14px;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #f9f9f9;
+    background-color:rgba(184, 93, 8, 0.8);
+    position: relative;
+    width: 20%;
+   
+}
+
+.datos button:hover{
+    transform: scale(1.2);
+	transform-origin: center;
+    color: whitesmoke;
+    background-color: rgba(184,93,8);
+    position: relative;
+}
+
+.enviar{
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.logito{
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+.redonda{
+    width: 30px;
+    height:30px;
+    border-radius:150px;
+}
